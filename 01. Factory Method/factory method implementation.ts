@@ -44,9 +44,9 @@ class SnackVendingMachine extends VendingMachine {
     }
 }
 
-// function client(vendingMachine: VendingMachine) {
+function client(vendingMachine: VendingMachine) {
     console.log(vendingMachine.dispenseProduct())
-// }
+}
 
 let snackVendingMachine: VendingMachine = new SnackVendingMachine
 client(snackVendingMachine)
