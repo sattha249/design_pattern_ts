@@ -3,7 +3,7 @@ class PaymentGateway {
     static #instance: PaymentGateway;
     static registeredGateway : string
     private constructor() {
-        this.initTime = new Date() 
+        // this.initTime = new Date() 
         console.log('initilized !!!! ')
     }
 
@@ -47,3 +47,4 @@ function client() {
 }
 
 client();
+
